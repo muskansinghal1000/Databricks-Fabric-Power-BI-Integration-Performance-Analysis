@@ -9,7 +9,7 @@ Proving how Microsoft Fabric can modernize analytics by integrating with Databri
 * Scalability
 * Operational efficiency
 
-  📦 Scope Breakdown
+📦 Scope Breakdown
   
 🔹 Scenario 1: Power BI Import Mode via Databricks Connector\
   Goal: Establish a baseline.\
