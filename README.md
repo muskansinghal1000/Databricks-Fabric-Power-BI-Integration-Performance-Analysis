@@ -3,7 +3,7 @@ It outlines a comparative benchmark across three integration scenarios between A
 
 🎯 Objective Summary
 Proving how Microsoft Fabric can modernize analytics by integrating with Databricks and Power BI, focusing on:
-Data freshness
-Performance
-Scalability
-Operational efficiency
+/Data freshness
+/Performance
+/Scalability
+/Operational efficiency
