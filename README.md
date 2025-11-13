@@ -21,33 +21,31 @@ Proving how Microsoft Fabric can modernize analytics by integrating with Databri
 🔹 Scenario 2: OneLake Shortcut + Direct Lake
    Goal: Showcase Fabric-native integration without data duplication.
 
-In Databricks:
-Export Delta tables to ADLS Gen2.
+* In Databricks: Export Delta tables to ADLS Gen2.
 
-In Fabric:
+* In Fabric:
 Create a Lakehouse.
 Use OneLake Shortcut to point to the ADLS Gen2 folder.
 Validate schema compatibility.
 
-In Power BI:
+* In Power BI:
 Connect using Direct Lake mode.
 Benchmark performance and freshness.
 
-Governance:
+* Governance:
 Document lineage from Unity Catalog → Shortcut → Lakehouse → Power BI.
 
 🔹 Scenario 3: Data Copy to OneLake + Direct Lake
 Goal: Compare performance when data is physically copied.
 
-In Databricks:
-Export Delta/Parquet files.
+* In Databricks: Export Delta/Parquet files.
 
-In Fabric:
+* In Fabric:
 Use Data Pipeline or Notebook to copy data into OneLake Lakehouse.
 Convert to Delta format if needed.
 
-In Power BI:
+* In Power BI:
 Connect via Direct Lake.
 
-Governance:
+* Governance:
 Document ingestion logic, schema validation, and refresh behavior.
